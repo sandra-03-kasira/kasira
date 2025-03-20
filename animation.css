@@ -1,0 +1,28 @@
+*{
+    background-color: bisque;
+    margin: 0px;
+    padding: 0px;
+}
+    @keyframes box-bounce{
+    0%{
+        transform: translate(opx);
+        background-color: black;
+    }
+    50%{
+        transform: translatex(50px);
+        background-color: brown;
+    }
+    100%{
+        transform: translate(0px);
+        background-color: violet;
+        transition: ease-in-out 2s infinity;
+    }
+}
+.box-bounce:hover{
+    color: chocolate;
+}
+.box-bounce{
+    padding: 2px;
+    width:200px;
+    height: 200px;
+}

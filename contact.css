@@ -1,0 +1,28 @@
+*{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+padding: 20px;
+margin: auto;
+width: 300px;
+border: 1px solid black;
+}
+.left{
+    margin-left: 20px;
+    padding: 20px;
+    width: 300px;
+}
+.right{
+    margin-right: 20;
+}
+button{
+    color: white;
+    background-color: blue;
+
+}
+.container>form>input{
+    line-height: 2px;
+    gap: 10px;
+}
